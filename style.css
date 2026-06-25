@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    margin: 44px 76px;
+}
+a{
+    font-weight: 600;
+    color:#989D9C;
+    font-size:24px;
+    line-height: 100%;
+    padding: 0 23px;
+    height: 29px;
+}
+#button-login{
+    background:#665AE1;
+    border-radius: 50px;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    cursor: pointer;
+    border: none;
+    width:130px;
+    height: 41px;
+
+}
+img{
+    margin: 144px 86px 183px 125px;
+
+}
+h1{
+    font-weight: 900;
+    font-size:100px;
+    line-height: 100%;
+    color:#515151;
+    width:513px;
+    height: 122px;
+}
+h2{
+    width:448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    color:#515151;
+    line-height: 100%;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    color:#848484;
+    width:515px;
+    height: 87px;
+    line-height: 100%;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+#button-explore{
+    font-size: 28px;
+    font-weight: 700;
+    color:#000000;
+    background:#ADFF00;
+    border-radius: 50px;
+    filter:drop-shadow(0px 4px 4px #00000040);
+    border:none;
+    cursor:pointer;
+    width: 239px;
+    height:64px ;
+}
+section{
+    display: inline-block;
+    margin:217px 148px 0 0;
+    position: absolute;
+}
+@media screen and (max-width:900px){
+    header{
+        display:none
+    }
+    p{
+        display: none;
+    }
+    img{
+        width:auto;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        margin:150px 15px 24px 15px;
+    }
+    h1{
+        width:auto;
+        height:auto;
+        margin:24px 65px 0 65px;
+        text-align: center;
+    }
+    h2{
+        width:auto;
+        height: auto;
+        font-size: 30px;
+        margin: 7px 80px 17px 80px;
+        text-align: center;
+        
+    }
+    #button-explore{
+     margin:0;
+     padding: 0;
+     margin:0 auto;
+     display: block;
+        
+    }
+    section{
+        display:block;
+        position: static;
+        text-align: center;
+        margin:0;
+        padding: 0;
+    }
+
+}
